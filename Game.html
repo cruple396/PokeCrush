@@ -1,0 +1,47 @@
+<!--
+Programmer: cruple396
+
+Description: A basic Pokemon themed Candy Crush game. 
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poke Crush</title>
+    <link rel="stylesheet" href="pokemon.css" />
+    <script src="pokemon.js"></script>
+    <link
+      href="https://fonts.cdnfonts.com/css/pokemon-solid"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="heading" style="display: none">
+      <p> Level: <span id="level">1</span></p>
+      <p>Turn: <span id="turns">20</span></p>
+      <p>Score: <span id="score">0</span></p>
+      <p>High-Score: <span id="highScore">0</span></p>
+    </div>
+
+    <div id="board" style="display: none"></div>
+
+    <div id="start" style="display: none">
+      <h1>PokeCrush</h1>
+      <a href="#" onclick="startGame()">Start Game</a>
+    </div>
+
+    <div id="end-heading" style="display: none">
+      <h1>Your Score: <span id="scoreEnd"></span></h1>
+      <h1>Level: <span id="levelEnd">1</span></h1>
+      <h1>High-Score: <span id="highScoreEnd"></span></h1>
+    </div>
+
+    <div id="game-over" style="display: none">
+      <h2><span id="ending">Game Over</span></h2>
+      <a href="#" onclick="startGame()"><span id="button">Play</span></a>
+    </div>
+  </body>
+</html>
