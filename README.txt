@@ -2,7 +2,7 @@ Title:
 PokeCrush
 
 Description:
-Pokecrush is a Pokemon themed Candy Crush game.
+PokeCrush is a Pokemon themed Candy Crush game.
 
 How to execute program:
 Open Game.html with a browser. No installing or compiling needed.
