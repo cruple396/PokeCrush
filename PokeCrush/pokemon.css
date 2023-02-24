@@ -1,0 +1,101 @@
+/*
+Programmer: cruple396
+
+Description: Looks for Game.html 
+*/
+
+body {
+  background: url("./background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Pokemon Solid", sans-serif;
+  color: gold;
+  text-align: center;
+  letter-spacing: 2.5px;
+  -webkit-text-stroke: 2px #2a75bb;
+  -webkit-text-fill-color: gold;
+}
+
+#board {
+  width: 600px;
+  height: 600px;
+  background-color: lightblue;
+  border: 5px solid slategray;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board img {
+  width: 65px;
+  height: 65px;
+}
+
+#heading {
+  display: flex;
+  font-family: "Pokemon Solid", sans-serif;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 35px;
+  padding: 1 15px;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 2px #2a75bb;
+  -webkit-text-fill-color: gold;
+}
+
+#end-heading {
+  display: flex;
+  font-family: "Pokemon Solid", sans-serif;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 2px #2a75bb;
+  -webkit-text-fill-color: gold;
+}
+
+#start,
+#game-over {
+  font-family: "Pokemon Solid", sans-serif;
+  color: gold;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  height: 250px;
+  width: 300px;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  -webkit-text-stroke: 2px #2a75bb;
+  -webkit-text-fill-color: gold;
+}
+
+#start a,
+#game-over a {
+  border: 3px solid gold;
+  color: gold;
+  text-decoration: none;
+  padding: -5px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: block;
+  width: 220px;
+  text-align: center;
+  font-size: 1em;
+  display: inline-block;
+  letter-spacing: 2.5px;
+  -webkit-text-stroke: 2px #2a75bb;
+  -webkit-text-fill-color: gold;
+}
+
+#start a:hover,
+#game-over a:hover {
+  background-color: clear;
+  color: gold;
+}
